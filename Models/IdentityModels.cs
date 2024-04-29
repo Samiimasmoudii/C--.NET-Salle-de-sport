@@ -1,8 +1,7 @@
-﻿using System.Data.Entity;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace ProjetC_MVCSalleSport.Models
 {
@@ -21,7 +20,7 @@ namespace ProjetC_MVCSalleSport.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("MySql.Data.MySqlClient", throwIfV1Schema: false)
         {
         }
 

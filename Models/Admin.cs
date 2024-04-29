@@ -1,27 +1,29 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProjetC_MVCSalleSport.Models
 {
-    internal class Admin
+    public class Admin
     {
         public Admin()
         {
         }
+        [Key]
+        public int id_admin { get; set; }
 
-        public int id_admin;
+        public string nom { get; set; }
 
-        public String nom;
+        public string prenom { get; set; }
 
-        public String prenom;
+        public string motDePasse { get; set; }
 
-        public String motDePasse;
+        public string mail { get; set; }
 
-        public String mail;
+        // Si vous souhaitez stocker des références vers d'autres entités, utilisez des collections
+        public ICollection<Membre> membres { get; set; }
 
-        public Membre[] mebres;
+        public ICollection<Cours> cours { get; set; }
 
-        public Cours[] cours;
-
-        public Coach[] coach;
+        public ICollection<Coach> coach { get; set; }
     }
 }

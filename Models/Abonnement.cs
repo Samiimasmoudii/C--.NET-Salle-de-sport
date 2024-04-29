@@ -1,23 +1,29 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjetC_MVCSalleSport.Models
 {
-    internal class Abonnement
+    public class Abonnement
     {
         public Abonnement()
         {
         }
 
-        public int id_ab;
+        [Key]
+        public int id_ab { get; set; }
 
-        public Date dateDebut;
+        public DateTime dateDebut { get; set; }
 
-        public Date dateFin;
+        public DateTime dateFin { get; set; }
 
-        public bool payement;
+        public bool payement { get; set; }
 
-        public String typeCours;
+        public string typeCours { get; set; }
+
+        [ForeignKey("Membre")]
         public int id_membre { get; set; }
+
         public Membre Membre { get; set; }
     }
 }

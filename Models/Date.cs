@@ -1,6 +1,6 @@
 ﻿namespace ProjetC_MVCSalleSport.Models
 {
-    internal class Date
+    public class Date
     {
         private int jour;
         private int mois;

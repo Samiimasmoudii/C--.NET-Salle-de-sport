@@ -1,26 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProjetC_MVCSalleSport.Models
 {
-    internal class Cours
+    public class Cours
     {
-        public Cours()
-        {
-        }
+        [Key]
+        public int id_cours { get; set; }
+        public string nom { get; set; }
+        public DateTime date { get; set; }
+        public string heure { get; set; }
+        public string type { get; set; }
 
-        public int id_cours;
-
-        public String nom;
-
-        public DateTime date;
-        public String heure;
-
-        public String type;
-
-        private Membre membre;
-
-        public Coach coach;
-
-        private Admin admin;
+        public ICollection<Membre> membres { get; set; }
+        public Coach coach { get; set; }
+        public ICollection<Admin> admin { get; set; }
     }
 }
