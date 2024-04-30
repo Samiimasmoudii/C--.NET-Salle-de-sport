@@ -455,6 +455,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CoachController.cs" />
     <Compile Include="Controllers\MembreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -548,6 +549,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Membre\ListeMembres.cshtml" />
     <Content Include="Views\Membre\AjouterMembre.cshtml" />
+    <Content Include="Views\Coach\AjouterCoach.cshtml" />
+    <Content Include="Views\Coach\ListeCoaches.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
