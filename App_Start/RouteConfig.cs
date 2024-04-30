@@ -15,15 +15,28 @@ namespace ProjetC_MVCSalleSport
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
             routes.MapRoute(
-    name: "AjouterMembre",
-    url: "Membre/Ajouter",
-    defaults: new { controller = "Membre", action = "Ajouter" }
-);
+                name: "AjouterMembre",
+                url: "Membre/Ajouter",
+                defaults: new { controller = "Membre", action = "Ajouter" }
+            );
             routes.MapRoute(
-    name: "ListeMembres",
-    url: "Membre/Liste",
-    defaults: new { controller = "Membre", action = "Liste" }
-);
+                name: "ListeMembres",
+                url: "Membre/Liste",
+                defaults: new { controller = "Membre", action = "Liste" }
+            );
+
+
+            routes.MapRoute(
+                name: "AjouterCoach",
+                url: "Coach/Ajouter",
+                defaults: new { controller = "Coach", action = "Ajouter" }
+            );
+            routes.MapRoute(
+            name: "ListeCoaches",
+            url: "Coach/Liste",
+            defaults: new { controller = "Coach" , action = "Liste" }
+            );
+
 
 
         }
