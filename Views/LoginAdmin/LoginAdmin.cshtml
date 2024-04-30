@@ -1,0 +1,16 @@
+﻿@model ProjetC_MVCSalleSport.Models.Admin
+
+@using (Html.BeginForm("LoginAdmin", "LoginAdmin", FormMethod.Post))
+{
+    <div>
+        <label for="mail">Email:</label>
+        @Html.TextBoxFor(model => model.mail, new { id = "mail" })
+    </div>
+
+    <div>
+        <label for="motDePasse">Mot de passe:</label>
+        @Html.PasswordFor(model => model.motDePasse, new { id = "motDePasse" })
+    </div>
+
+    <button type="submit">Se connecter</button>
+}

@@ -34,10 +34,30 @@ namespace ProjetC_MVCSalleSport
             routes.MapRoute(
             name: "ListeCoaches",
             url: "Coach/Liste",
-            defaults: new { controller = "Coach" , action = "Liste" }
+            defaults: new { controller = "Coach", action = "Liste" }
+            );
+            routes.MapRoute(
+                name: "ChooseUser",
+                url: "Auth/ChooseRole",
+                defaults: new { controller = "Auth", action = "ChooseUser" }
+            );
+            routes.MapRoute(
+                name: "Login",
+                url: "Auth/Login",
+                defaults: new { controller = "Auth", action = "Login" }
             );
 
+            routes.MapRoute(
+                name: "LoginCoach",
+                url: "Coach/LoginCoach",
+                defaults: new { controller = "Auth", action = "LoginCoach" }
+            );
 
+            routes.MapRoute(
+                name: "LoginAdmin",
+                url: "Auth/LoginAdmin",
+                defaults: new { controller = "Auth", action = "LoginAdmin" }
+            );
 
         }
     }

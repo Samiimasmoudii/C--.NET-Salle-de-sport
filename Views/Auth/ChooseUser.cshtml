@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Choose User";
+}
+
+<h2>Choose User Type</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            
+            <a href="@Url.Action("Login", "Auth")" class="btn btn-primary">Continuer en tant que membre</a>
+        </div>
+        <div class="col-md-4">
+            
+            <a href="@Url.Action("LoginCoach", "Coach")" class="btn btn-primary">Continuer en tant que coach</a>
+        </div>
+        <div class="col-md-4">
+            
+            <a href="@Url.Action("LoginAdmin", "LoginAdmin")" class="btn btn-primary">Continuer en tant qu'admin</a>
+        </div>
+    </div>
+</div>

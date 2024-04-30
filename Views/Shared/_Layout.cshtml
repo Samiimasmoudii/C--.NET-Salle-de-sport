@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - FitLAND</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -25,9 +25,10 @@
                     <li>@Html.ActionLink("Liste Membres", "ListeMembres", "Membre", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Ajouter Coach", "Ajouter", "Coach", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Liste Coaches", "ListeCoaches", "Coach", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Login", "ChooseUser", "Auth", new { area = "" }, new { @class = "nav-link" })</li>
 
                 </ul>
-                 @Html.Partial("_LoginPartial")
+                 
             </div>
         </div>
     </nav>

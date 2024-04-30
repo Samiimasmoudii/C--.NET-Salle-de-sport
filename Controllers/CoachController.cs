@@ -1,6 +1,6 @@
-﻿using System.Linq;
+﻿using ProjetC_MVCSalleSport.Models;
+using System.Linq;
 using System.Web.Mvc;
-using ProjetC_MVCSalleSport.Models;
 
 namespace ProjetC_MVCSalleSport.Controllers
 {
@@ -11,6 +11,30 @@ namespace ProjetC_MVCSalleSport.Controllers
         public CoachController()
         {
             _context = new ContexteDeBaseDeDonnees();
+        }
+        // GET: /Auth/LoginCoach
+        public ActionResult LoginCoach()
+        {
+            return View();
+        }
+
+        // POST: /Coach/LoginCoach
+        [HttpPost]
+        public ActionResult LoginCoach(Coach coach)
+        {
+            var coachTrouve = _context.Coaches.FirstOrDefault(c => c.mail == coach.mail && c.motDePasse == coach.motDePasse);
+
+            if (coachTrouve != null)
+            {
+                // Redirect to the appropriate action and controller after successful login
+                return RedirectToAction("About", "Home"); // Redirection vers la page d'accueil par exemple
+
+            }
+            else
+            {
+                ModelState.AddModelError("", "Email ou mot de passe incorrect");
+                return View(coach);
+            }
         }
 
         [HttpGet]

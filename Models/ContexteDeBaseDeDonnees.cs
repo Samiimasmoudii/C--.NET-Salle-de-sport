@@ -13,6 +13,7 @@ namespace ProjetC_MVCSalleSport.Models
 
         public DbSet<Membre> Membres { get; set; }
         public DbSet<Coach> Coaches { get; set; }
+        public DbSet<Admin> Admins { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

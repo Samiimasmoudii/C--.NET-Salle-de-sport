@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjetC_MVCSalleSport.Models
 {
+    [Table("admin")]
     public class Admin
     {
+
         public Admin()
         {
         }
