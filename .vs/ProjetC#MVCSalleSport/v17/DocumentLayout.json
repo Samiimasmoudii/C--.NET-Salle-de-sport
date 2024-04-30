@@ -1,0 +1,327 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|c:\\users\\samso\\documents\\enit\\2-c#\\mvc\\projet-c-mvc-salle-de-sport\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|c:\\users\\samso\\documents\\enit\\2-c#\\mvc\\projet-c-mvc-salle-de-sport\\views\\coach\\listecoaches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:views\\coach\\listecoaches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|c:\\users\\samso\\documents\\enit\\2-c#\\mvc\\projet-c-mvc-salle-de-sport\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|c:\\users\\samso\\documents\\enit\\2-c#\\mvc\\projet-c-mvc-salle-de-sport\\controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|c:\\users\\samso\\documents\\enit\\2-c#\\mvc\\projet-c-mvc-salle-de-sport\\models\\contextedebasededonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\contextedebasededonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|c:\\users\\samso\\documents\\enit\\2-c#\\mvc\\projet-c-mvc-salle-de-sport\\controllers\\membrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:controllers\\membrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|c:\\users\\samso\\documents\\enit\\2-c#\\mvc\\projet-c-mvc-salle-de-sport\\views\\coach\\ajoutercoach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:views\\coach\\ajoutercoach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\models\\membre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\membre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|c:\\users\\samso\\documents\\enit\\2-c#\\mvc\\projet-c-mvc-salle-de-sport\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|c:\\users\\samso\\documents\\enit\\2-c#\\mvc\\projet-c-mvc-salle-de-sport\\models\\progr\u00E9s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\progr\u00E9s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\models\\abonnement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\abonnement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\models\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\models\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC19070-DF44-471A-8D7E-E13CE8C481B3}|ProjetC#MVCSalleSport.csproj|solutionrelative:models\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListeCoaches.cshtml",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Views\\Coach\\ListeCoaches.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coach\\ListeCoaches.cshtml",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Views\\Coach\\ListeCoaches.cshtml",
+              "RelativeToolTip": "Views\\Coach\\ListeCoaches.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T10:41:18.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:26:16.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T10:24:02.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContexteDeBaseDeDonnees.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\ContexteDeBaseDeDonnees.cs",
+              "RelativeDocumentMoniker": "Models\\ContexteDeBaseDeDonnees.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\ContexteDeBaseDeDonnees.cs",
+              "RelativeToolTip": "Models\\ContexteDeBaseDeDonnees.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:22:30.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AjouterCoach.cshtml",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Views\\Coach\\AjouterCoach.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coach\\AjouterCoach.cshtml",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Views\\Coach\\AjouterCoach.cshtml",
+              "RelativeToolTip": "Views\\Coach\\AjouterCoach.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T10:19:43.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoachController.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Controllers\\CoachController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachController.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Controllers\\CoachController.cs",
+              "RelativeToolTip": "Controllers\\CoachController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA4wCIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:16:45.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MembreController.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Controllers\\MembreController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MembreController.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Controllers\\MembreController.cs",
+              "RelativeToolTip": "Controllers\\MembreController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwBIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:02:40.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Coach.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Coach.cs",
+              "RelativeDocumentMoniker": "Models\\Coach.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Coach.cs",
+              "RelativeToolTip": "Models\\Coach.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA7wAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-30T09:45:25.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Progr\u00E9s.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Progr\u00E9s.cs",
+              "RelativeDocumentMoniker": "Models\\Progr\u00E9s.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Progr\u00E9s.cs",
+              "RelativeToolTip": "Models\\Progr\u00E9s.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cours.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Cours.cs",
+              "RelativeDocumentMoniker": "Models\\Cours.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Cours.cs",
+              "RelativeToolTip": "Models\\Cours.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Abonnement.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Abonnement.cs",
+              "RelativeDocumentMoniker": "Models\\Abonnement.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Abonnement.cs",
+              "RelativeToolTip": "Models\\Abonnement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Membre.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Membre.cs",
+              "RelativeDocumentMoniker": "Models\\Membre.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Membre.cs",
+              "RelativeToolTip": "Models\\Membre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\ManageViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ManageViewModels.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\ManageViewModels.cs",
+              "RelativeToolTip": "Models\\ManageViewModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "Models\\IdentityModels.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "Models\\IdentityModels.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "Models\\AccountViewModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Date.cs",
+              "DocumentMoniker": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Date.cs",
+              "RelativeDocumentMoniker": "Models\\Date.cs",
+              "ToolTip": "C:\\Users\\samso\\Documents\\ENIT\\2-C#\\mvc\\Projet-C-MVC-Salle-de-sport\\Models\\Date.cs",
+              "RelativeToolTip": "Models\\Date.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:33:26.924Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
