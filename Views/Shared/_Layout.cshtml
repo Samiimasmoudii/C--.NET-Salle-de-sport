@@ -30,16 +30,18 @@
                             <li>@Html.ActionLink("Liste Coaches", "ListeCoaches", "Coach", new { area = "" }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Logout", "Logout", "LoginAdmin", new { area = "" }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Ajouter Cours", "Ajouter", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Liste Cours", "ListeCours", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Supprimer Cours", "Supprimer", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
                         }
 
                         if (userType == "membre")
                         {
-                            <li>@Html.ActionLink("Planning", "Index", "Planning", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Planning", "Index", "Cours", new { area = "" }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Logout", "Logout", "Auth", new { area = "" }, new { @class = "nav-link" })</li>
                         }
                         if (userType == "coach")
                         {
-                            <li>@Html.ActionLink("Planning", "Index", "Planning", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Planning", "Index", "Cours", new { area = "" }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Logout", "Logout", "Coach", new { area = "" }, new { @class = "nav-link" })</li>
                         }
                     }

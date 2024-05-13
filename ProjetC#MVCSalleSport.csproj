@@ -457,12 +457,11 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\CoachController.cs" />
-    <Compile Include="Controllers\DashboradClientController.cs" />
+    <Compile Include="Controllers\CoursController.cs" />
     <Compile Include="Controllers\LoginAdminController.cs" />
     <Compile Include="Controllers\MembreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\PlanningController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -551,12 +550,13 @@
     <Content Include="Views\LoginAdmin\LoginAdmin.cshtml" />
     <Content Include="Views\Auth\ChooseUser.cshtml" />
     <Content Include="Views\Auth\SignUp.cshtml" />
-    <Content Include="Views\Planning\Index.cshtml" />
     <Content Include="Views\Admin\AjouterCours.cshtml" />
+    <Content Include="Views\Admin\ListeCours.cshtml" />
+    <Content Include="Views\Admin\SupprimerCours.cshtml" />
+    <Content Include="Views\Cours\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\DashboradClient\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

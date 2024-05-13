@@ -40,5 +40,26 @@ namespace ProjetC_MVCSalleSport.Controllers
             }
             return View(cours);
         }
+        [HttpGet]
+        public ActionResult Supprimer()
+        {
+            var listeCours = _context.Cours.ToList();
+            return View("SupprimerCours", listeCours);
+        }
+
+
+        [HttpPost]
+        public ActionResult SupprimerCours(int idCours)
+        {
+            var coursASupprimer = _context.Cours.Find(idCours);
+
+            if (coursASupprimer != null)
+            {
+                _context.Cours.Remove(coursASupprimer);
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("ListeCours");
+        }
     }
 }

@@ -39,5 +39,6 @@ namespace ProjetC_MVCSalleSport.Controllers
             }
             return View(membre);
         }
+
     }
 }
