@@ -22,6 +22,9 @@
                     @if (Session["UserType"] != null)
                     {
                         var userType = Session["UserType"].ToString();
+
+
+
                         if (userType == "admin")
                         {
                             <li>@Html.ActionLink("Ajouter Membre", "Ajouter", "Membre", new { area = "" }, new { @class = "nav-link" })</li>
@@ -32,16 +35,22 @@
                             <li>@Html.ActionLink("Ajouter Cours", "Ajouter", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Liste Cours", "ListeCours", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Supprimer Cours", "Supprimer", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Supprimer Membre", "Supprimer", "Membre", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Supprimer Coach", "Supprimer", "Coach", new { area = "" }, new { @class = "nav-link" })</li>
                         }
 
                         if (userType == "membre")
                         {
+                            int userId = Convert.ToInt32(Session["UserID"]);
                             <li>@Html.ActionLink("Planning", "Index", "Cours", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Consulter Progrès", "ConsulterProgres", "Membre", new { id = userId }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Logout", "Logout", "Auth", new { area = "" }, new { @class = "nav-link" })</li>
+
                         }
                         if (userType == "coach")
                         {
                             <li>@Html.ActionLink("Planning", "Index", "Cours", new { area = "" }, new { @class = "nav-link" })</li>
+                            <li>@Html.ActionLink("Ajouter Progrés", "AjouterProgres", "Membre", new { area = "" }, new { @class = "nav-link" })</li>
                             <li>@Html.ActionLink("Logout", "Logout", "Coach", new { area = "" }, new { @class = "nav-link" })</li>
                         }
                     }

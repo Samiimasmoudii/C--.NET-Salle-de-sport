@@ -1,6 +1,8 @@
 ﻿using ProjetC_MVCSalleSport.Models;
+using System.Data.Entity;
 using System.Linq;
 using System.Web.Mvc;
+
 
 namespace ProjetC_MVCSalleSport.Controllers
 {
@@ -62,6 +64,34 @@ namespace ProjetC_MVCSalleSport.Controllers
             }
             return View(coach);
         }
+        [HttpGet]
+        public ActionResult Supprimer()
+        {
+            var ListeCoaches = _context.Coaches.ToList();
+            return View("SupprimerCoach", ListeCoaches);
+        }
+
+
+        [HttpPost]
+        public ActionResult SupprimerCoach(int idCoach)
+        {
+            var coachASupprimer = _context.Coaches.Include(c => c.cours).FirstOrDefault(c => c.id_coach == idCoach);
+
+            if (coachASupprimer != null)
+            {
+                foreach (var cours in coachASupprimer.cours.ToList())
+                {
+                    _context.Cours.Remove(cours);
+                }
+
+                _context.Coaches.Remove(coachASupprimer);
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("ListeCoaches");
+        }
+
+
         // GET: /Coach/Logout
         public ActionResult Logout()
         {

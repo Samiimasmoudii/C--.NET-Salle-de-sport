@@ -17,6 +17,8 @@ namespace ProjetC_MVCSalleSport.Models
 
         public DbSet<Cours> Cours { get; set; }
 
+        public DbSet<Progrés> Progres { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

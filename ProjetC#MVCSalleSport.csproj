@@ -554,6 +554,10 @@
     <Content Include="Views\Admin\ListeCours.cshtml" />
     <Content Include="Views\Admin\SupprimerCours.cshtml" />
     <Content Include="Views\Cours\Index.cshtml" />
+    <Content Include="Views\Membre\SupprimerMembre.cshtml" />
+    <Content Include="Views\Coach\SupprimerCoach.cshtml" />
+    <Content Include="Views\Membre\ConsulterProgres.cshtml" />
+    <Content Include="Views\Membre\AjouterProgres.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
