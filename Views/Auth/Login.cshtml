@@ -1,8 +1,7 @@
 ﻿@model ProjetC_MVCSalleSport.Models.Membre
 
-@using (Html.BeginForm("Login", "Auth", FormMethod.Post))
+<!---@using (Html.BeginForm("Login", "Auth", FormMethod.Post))
 {
-    <h2 >Login As Membre</h2>
     <div>
         <label for="mail">Email:</label>
         @Html.TextBoxFor(model => model.mail, new { id = "mail" })
@@ -15,4 +14,61 @@
 
     <button type="submit">Se connecter</button>
     @Html.ActionLink("S'inscrire", "SignUp", "Auth")
-}
+}-->
+
+<section class="vh-100">
+
+
+    <div class="container-fluid h-custom">
+
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <img src="\Content\Girl-Gym.png"
+                     class="img-fluid" alt="Sample image">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <h2>Login Membre</h2>
+                @using (Html.BeginForm("Login", "Auth", FormMethod.Post))
+                {
+
+
+
+
+                    <!-- Email input -->
+
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        @Html.TextBoxFor(model => model.mail, new { id = "mail", @class = "form-control form-control-lg", placeholder = "Entrez votre Mail" })
+                        <label class="form-label" for="mail">Email address</label>
+                    </div>
+
+
+                    <!-- Password input -->
+                    <div data-mdb-input-init class="form-outline mb-3">
+                        @Html.PasswordFor(model => model.motDePasse, new { id = "motDePasse", @class = "form-control form-control-lg", placeholder = "Entrez votre Mot De Passe" })
+                        <label class="form-label" for="motDePasse">Password</label>
+                    </div>
+
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Checkbox -->
+
+                    </div>
+
+                    <div class="text-center text-lg-start mt-4 pt-2">
+                        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                            Login
+                        </button>
+
+                      
+
+                        <!-- Action link styled to resemble the button -->
+                        @Html.ActionLink("S'inscrire", "SignUp", "Auth", null, new { @class = "btn btn-primary btn-lg", style = "padding-left: 2.5rem; padding-right: 2.5rem;" })
+
+
+                    </div>
+
+                }
+            </div>
+        </div>
+    </div>

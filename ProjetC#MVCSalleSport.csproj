@@ -499,6 +499,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\bootstrap2.css" />
     <Content Include="Content\bootstrap3.css" />
+    <EmbeddedResource Include="Content\Girl-Gym.png" />
     <Content Include="Content\image.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
