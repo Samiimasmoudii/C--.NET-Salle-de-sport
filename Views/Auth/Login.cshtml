@@ -2,6 +2,7 @@
 
 @using (Html.BeginForm("Login", "Auth", FormMethod.Post))
 {
+    <h2 >Login As Membre</h2>
     <div>
         <label for="mail">Email:</label>
         @Html.TextBoxFor(model => model.mail, new { id = "mail" })

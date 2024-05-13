@@ -454,6 +454,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\CoachController.cs" />
     <Compile Include="Controllers\DashboradClientController.cs" />
@@ -461,17 +462,18 @@
     <Compile Include="Controllers\MembreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PlanningController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Abonnement.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Coach.cs" />
     <Compile Include="Models\ContexteDeBaseDeDonnees.cs" />
     <Compile Include="Models\Cours.cs" />
     <Compile Include="Models\Date.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Membre.cs" />
     <Compile Include="Models\Progrés.cs" />
@@ -548,10 +550,11 @@
     <Content Include="Views\LoginAdmin\LoginAdmin.cshtml" />
     <Content Include="Views\Auth\ChooseUser.cshtml" />
     <Content Include="Views\Auth\SignUp.cshtml" />
+    <Content Include="Views\Planning\Index.cshtml" />
+    <Content Include="Views\Admin\AjouterCours.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Admin\" />
     <Folder Include="Views\DashboradClient\" />
   </ItemGroup>
   <ItemGroup>

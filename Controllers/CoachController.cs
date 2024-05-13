@@ -27,7 +27,8 @@ namespace ProjetC_MVCSalleSport.Controllers
             if (coachTrouve != null)
             {
                 // Redirect to the appropriate action and controller after successful login
-                return RedirectToAction("About", "Home"); // Redirection vers la page d'accueil par exemple
+                Session["UserType"] = "coach";
+                return RedirectToAction("Index", "Home"); // Redirection vers la page d'accueil par exemple
 
             }
             else
@@ -60,6 +61,13 @@ namespace ProjetC_MVCSalleSport.Controllers
                 return RedirectToAction("ListeCoaches");
             }
             return View(coach);
+        }
+        // GET: /Coach/Logout
+        public ActionResult Logout()
+        {
+            // Code de déconnexion
+            Session.Clear(); // Effacer toutes les variables de session
+            return RedirectToAction("Index", "Home");
         }
     }
 }

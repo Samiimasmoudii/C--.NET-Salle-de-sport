@@ -15,6 +15,8 @@ namespace ProjetC_MVCSalleSport.Models
         public DbSet<Coach> Coaches { get; set; }
         public DbSet<Admin> Admins { get; set; }
 
+        public DbSet<Cours> Cours { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

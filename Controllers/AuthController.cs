@@ -28,7 +28,8 @@ namespace ProjetC_MVCSalleSport.Controllers
             if (membreTrouve != null)
             {
                 // Si le membre est trouvé, redirigez-le vers une autre vue ou effectuez d'autres actions
-                return RedirectToAction("About", "Home"); // Redirection vers la page d'accueil par exemple
+                Session["UserType"] = "membre";
+                return RedirectToAction("Index", "Home"); // Redirection vers la page d'accueil par exemple
             }
             else
             {
@@ -70,6 +71,13 @@ namespace ProjetC_MVCSalleSport.Controllers
         public ActionResult Confirmation()
         {
             return View();
+        }
+        // GET: /Auth/Logout
+        public ActionResult Logout()
+        {
+            // Code de déconnexion
+            Session.Clear(); // Effacer toutes les variables de session
+            return RedirectToAction("Index", "Home");
         }
     }
 }

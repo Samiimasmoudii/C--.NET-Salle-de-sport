@@ -23,6 +23,7 @@ namespace ProjetC_MVCSalleSport.Controllers
             if (adminTrouve != null)
             {
                 // Redirection vers une autre vue (par exemple, la page d'accueil)
+                Session["UserType"] = "admin";
                 return RedirectToAction("Index", "Home");
             }
             else
@@ -30,6 +31,13 @@ namespace ProjetC_MVCSalleSport.Controllers
                 ModelState.AddModelError("", "Email ou mot de passe incorrect");
                 return View(admin);
             }
+        }
+        // GET: /LoginAdmin/Logout
+        public ActionResult Logout()
+        {
+            // Code de déconnexion
+            Session.Clear(); // Effacer toutes les variables de session
+            return RedirectToAction("Index", "Home");
         }
     }
 }
