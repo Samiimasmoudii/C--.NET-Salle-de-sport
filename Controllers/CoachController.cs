@@ -64,6 +64,8 @@ namespace ProjetC_MVCSalleSport.Controllers
             }
             return View(coach);
         }
+<<<<<<< HEAD
+=======
         [HttpGet]
         public ActionResult Supprimer()
         {
@@ -92,6 +94,7 @@ namespace ProjetC_MVCSalleSport.Controllers
         }
 
 
+>>>>>>> 9302fff822ecb79e10b2c0f6ae0ee2f4cc840620
         // GET: /Coach/Logout
         public ActionResult Logout()
         {

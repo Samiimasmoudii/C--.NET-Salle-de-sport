@@ -462,6 +462,7 @@
     <Compile Include="Controllers\MembreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PlanningController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -480,6 +481,14 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Amine.jpg" />
+    <Content Include="Content\Amine.png" />
+    <Content Include="Content\Fatma.png" />
+    <Content Include="Content\Ghada.jpg" />
+    <Content Include="Content\Ghada.png" />
+    <Content Include="Content\Maram.jpg" />
+    <Content Include="Content\Maram.png" />
+    <Content Include="Content\Sami.jpg" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -499,7 +508,86 @@
     <Content Include="Content\bootstrap2.css" />
     <Content Include="Content\bootstrap3.css" />
     <EmbeddedResource Include="Content\Girl-Gym.png" />
+<<<<<<< HEAD
+    <Content Include="Content\calendar.png" />
+    <Content Include="Content\Fatma.jpg" />
+    <Content Include="Content\Gym-Coach.png" />
+    <Content Include="Content\hero-bg.jpg" />
+=======
+>>>>>>> 9302fff822ecb79e10b2c0f6ae0ee2f4cc840620
     <Content Include="Content\image.jpg" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\circle-progress.min.js" />
+    <Content Include="Content\js\jquery-3.2.1.min.js" />
+    <Content Include="Content\js\jquery.slicknav.js" />
+    <Content Include="Content\js\main.js" />
+    <Content Include="Content\js\owl.carousel.min.js" />
+    <Content Include="Content\maintenance.png" />
+    <Content Include="Content\Manager.png" />
+    <Content Include="Content\notepad.png" />
+    <Content Include="Content\Sami.png" />
+    <Content Include="Content\xgym-master\xgym-master\about.html" />
+    <Content Include="Content\xgym-master\xgym-master\blog.html" />
+    <Content Include="Content\xgym-master\xgym-master\classes.html" />
+    <Content Include="Content\xgym-master\xgym-master\contact.html" />
+    <Content Include="Content\xgym-master\xgym-master\css\bootstrap.min.css" />
+    <Content Include="Content\xgym-master\xgym-master\css\flaticon.css" />
+    <Content Include="Content\xgym-master\xgym-master\css\font-awesome.min.css" />
+    <Content Include="Content\xgym-master\xgym-master\css\owl.carousel.min.css" />
+    <Content Include="Content\xgym-master\xgym-master\css\slicknav.min.css" />
+    <Content Include="Content\xgym-master\xgym-master\css\style.css" />
+    <Content Include="Content\xgym-master\xgym-master\elements.html" />
+    <Content Include="Content\xgym-master\xgym-master\icon-fonts\Flaticon.svg" />
+    <Content Include="Content\xgym-master\xgym-master\icon-fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\xgym-master\xgym-master\img\about-img.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\achievement-bg.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\add-bg.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\blog\1.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\blog\2.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\blog\3.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\blog\blog-widget\1.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\blog\blog-widget\2.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\blog\blog-widget\3.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\bmi-bg.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\certified-bg.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\check-icon.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\favicon.ico" />
+    <Content Include="Content\xgym-master\xgym-master\img\footer-bg.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\header-bg\1.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\header-bg\2.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\header-bg\3.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\header-bg\4.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\header-bg\5.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\hero-bg.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\1-dark.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\1.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\2-dark.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\2.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\3-dark.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\3.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\4.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\edit.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\layout.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\profile.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\icons\search.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\location-icon.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\logo.png" />
+    <Content Include="Content\xgym-master\xgym-master\img\newsletter-bg.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\pricing-bg.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\trainers\1.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\trainers\2.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\trainers\3.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\img\trainers\4.jpg" />
+    <Content Include="Content\xgym-master\xgym-master\index.html" />
+    <Content Include="Content\xgym-master\xgym-master\js\bootstrap.min.js" />
+    <Content Include="Content\xgym-master\xgym-master\js\circle-progress.min.js" />
+    <Content Include="Content\xgym-master\xgym-master\js\jquery-3.2.1.min.js" />
+    <Content Include="Content\xgym-master\xgym-master\js\jquery.slicknav.js" />
+    <Content Include="Content\xgym-master\xgym-master\js\main.js" />
+    <Content Include="Content\xgym-master\xgym-master\js\owl.carousel.min.js" />
+    <Content Include="Content\xgym-master\xgym-master\main.html" />
+    <Content Include="Content\xgym-master\xgym-master\readme.txt" />
+    <Content Include="Content\xgym-master\xgym-master\Source\photo credits - fitness-gym.txt" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -509,6 +597,19 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\xgym-master\xgym-master\.DS_Store" />
+    <Content Include="Content\xgym-master\xgym-master\css\style.css.map" />
+    <Content Include="Content\xgym-master\xgym-master\icon-fonts\Flaticon.eot" />
+    <Content Include="Content\xgym-master\xgym-master\icon-fonts\Flaticon.ttf" />
+    <Content Include="Content\xgym-master\xgym-master\icon-fonts\Flaticon.woff" />
+    <Content Include="Content\xgym-master\xgym-master\icon-fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\xgym-master\xgym-master\icon-fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\xgym-master\xgym-master\icon-fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\xgym-master\xgym-master\Source\bootstrap-4.2.1-dist.zip" />
+    <Content Include="Content\xgym-master\xgym-master\Source\font-awesome-4.7.0.zip" />
+    <Content Include="Content\xgym-master\xgym-master\Source\OwlCarousel2-2.3.4.zip" />
+    <Content Include="Content\xgym-master\xgym-master\Source\sass.zip" />
+    <Content Include="Content\xgym-master\xgym-master\Source\SlickNav-master.zip" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -520,6 +621,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Views\Gym-Coach.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -550,6 +652,14 @@
     <Content Include="Views\LoginAdmin\LoginAdmin.cshtml" />
     <Content Include="Views\Auth\ChooseUser.cshtml" />
     <Content Include="Views\Auth\SignUp.cshtml" />
+<<<<<<< HEAD
+    <Content Include="Views\Planning\Index.cshtml" />
+    <Content Include="Views\Admin\AjouterCours.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Views\DashboradClient\" />
+=======
     <Content Include="Views\Admin\AjouterCours.cshtml" />
     <Content Include="Views\Admin\ListeCours.cshtml" />
     <Content Include="Views\Admin\SupprimerCours.cshtml" />
@@ -561,6 +671,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+>>>>>>> 9302fff822ecb79e10b2c0f6ae0ee2f4cc840620
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

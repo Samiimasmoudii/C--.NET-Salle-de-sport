@@ -40,6 +40,8 @@ namespace ProjetC_MVCSalleSport.Controllers
             }
             return View(cours);
         }
+<<<<<<< HEAD
+=======
         [HttpGet]
         public ActionResult Supprimer()
         {
@@ -61,5 +63,6 @@ namespace ProjetC_MVCSalleSport.Controllers
 
             return RedirectToAction("ListeCours");
         }
+>>>>>>> 9302fff822ecb79e10b2c0f6ae0ee2f4cc840620
     }
 }
